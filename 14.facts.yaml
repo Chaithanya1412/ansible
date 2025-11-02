@@ -3,13 +3,13 @@
   connection: local
   become: yes
   tasks:
-  - name: install nginx ifredhat
+  - name: install nginx if redhat
     ansible.builtin.dnf:
       name: nginx 
       stated: latest
     when: ansible_os_family == "RedHat" # use ansible_ while referring the facts
 
-  - name: install nginx if redhat
+  - name: install nginx if debian
     ansible.builtin.dnf:
       name: nginx 
       stated: latest
