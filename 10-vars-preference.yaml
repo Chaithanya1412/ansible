@@ -17,7 +17,8 @@
       msg: "Name: {{ NAME }}"
 
 # 1.first preference argments or command line
-# 2. second preference is task level (from prompt)
+# 2. second preference is task level 
 # 3. 3rd preference files 
 # 4. prompt
 # 5. play level
+# 6. inventory level
