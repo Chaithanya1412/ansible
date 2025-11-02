@@ -1,0 +1,23 @@
+{
+    "name": " chai",
+    "dob": "09-09-09",
+    "addresses": [
+        {
+            "type": "current",
+            "doorno": "3-33",
+            "street": "xyz colony",
+            "city": "hyd",
+            "pin": 578687
+
+        },
+        {
+            "type": "prem",
+            "doorno": "3-33",
+            "street": "xyz colony",
+            "city": "hyd",
+            "pin": 578687
+
+        }
+    ],
+    "skills": ["java", "devops", "cloud"]
+}

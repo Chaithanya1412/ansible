@@ -1,0 +1,25 @@
+<student>
+    <Name>chait b </Name>
+    <DOB>09-09-09</DOB>
+    <age>21</age>
+    <!-- List of objects -->
+    <addresses>
+        <!-- Object -->
+        <address type="PERM">
+            <DoorNo>9-99</DoorNo>
+            <Street>xyz colony</Street>
+            <PIN>678678</PIN>
+        </address>
+        <address type="Current">
+            <DoorNo>9-99</DoorNo>
+            <Street>xyz colony</Street>
+            <PIN>678678</PIN>
+        </address>
+    </addresses>
+    <!-- List of String -->
+    <skills>
+        <skill>Java</skill>
+        <skill>DevOps</skill>
+        <skill>cloud</skill>
+    </skills>
+</student>

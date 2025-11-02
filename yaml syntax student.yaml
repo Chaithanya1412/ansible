@@ -1,0 +1,41 @@
+- name: "chai B"
+  dob: "09-09-09"
+  age: 21
+  addresses:
+   # Object
+  - doorno: 3-33
+    street: "xyz colony"
+    city: hyd
+    pin: 578687
+    type: current
+
+  - doorno: 3-33
+    street: "xyz colony"
+    city: hyd
+    pin: 578687
+    type: perm
+  skills:
+  - java
+  - devops
+  - cloud
+
+- name: "su B"
+  dob: "09-09-09"
+  age: 21
+  addresses:
+   # Object
+  - doorno: 3-33
+    street: "xyz colony"
+    city: hyd
+    pin: 578687
+    type: current
+
+  - doorno: 3-33
+    street: "xyz colony"
+    city: hyd
+    pin: 578687
+    type: perm
+  skills:
+  - java
+  - devops
+  - cloud
