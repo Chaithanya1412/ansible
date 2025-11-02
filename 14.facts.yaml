@@ -1,0 +1,15 @@
+- name: check the facts
+  hosts: local
+  connection: local
+  tasks:
+  - name: install nginx ifredhat
+    ansible.builtin.dnf:
+      name: nginx 
+      stated: latest
+    when : ansible_os_family == "Redhat" # use ansible_ while referring the facts
+
+  - name: install nginx ifredhat
+    ansible.builtin.dnf:
+      name: nginx 
+      stated: latest
+    when : ansible_os_family == "Debian"
